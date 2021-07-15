@@ -1,0 +1,15 @@
+{
+    "version": "0.1.0",
+    "description": "My Cool Addon",
+    "license": "<LICENSE>",
+    "private": true,
+    "scripts": {
+        "build": "tstl",
+        "dev": "tstl --watch"
+    },
+    "devDependencies": {
+        "gmod-types": "^0.1.0",
+        "typescript": "^4.3.5",
+        "typescript-to-lua": "^0.41.0"
+    }
+}

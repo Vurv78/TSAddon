@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"lib": ["esnext"],
+		"moduleResolution": "node",
+		"types": ["gmod-types"],
+		"strict": true,
+
+		"rootDir": "src",
+		"outDir": "lua",
+
+		// Fix an issue with duplicate identifiers
+		"skipLibCheck": true
+	},
+	"tstl": {
+		"luaTarget": "JIT",
+		"noImplicitSelf": true,
+		"noHeader": true,
+		"luaLibImport": "inline"
+	}
+}

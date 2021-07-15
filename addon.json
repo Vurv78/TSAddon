@@ -1,0 +1,25 @@
+{
+	"title"		:	"Example TS Addon",
+	"type"		:	"tool",
+	"tags"		:	["build", "fun"],
+	"description":	"...",
+	"author" : "...",
+	"ignore"	:
+	[
+		"README.md",
+		"*.jpg",
+		"*.png",
+
+		"node_modules",
+		"src",
+
+		"package.json",
+		"package-lock.json",
+		"tsconfig.json",
+
+		".git",
+		".gitignore",
+		".gitattributes",
+		".glualint.json"
+	]
+}
