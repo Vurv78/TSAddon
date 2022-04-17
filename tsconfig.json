@@ -6,7 +6,6 @@
 		"types": ["gmod-types"],
 		"strict": true,
 
-		"rootDir": "src",
 		"outDir": "lua",
 
 		// Fix an issue with duplicate identifiers
@@ -16,6 +15,13 @@
 		"luaTarget": "JIT",
 		"noImplicitSelf": true,
 		"noHeader": true,
-		"luaLibImport": "inline"
-	}
+		"luaLibImport": "inline",
+
+		"luaPlugins": [
+			{ "name": "./plugin.ts" }
+		]
+	},
+	"include": [
+		"./src/**/*.ts"
+	]
 }
